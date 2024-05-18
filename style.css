@@ -148,13 +148,15 @@ header #top-container {
     justify-content: center;
     align-items: center;
 }
-#lucky-button{
-    a{
+
+#lucky-button {
+    a {
         color: #3c4043;
     }
 
 
 }
+
 #search-button, #lucky-button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -175,7 +177,6 @@ header #top-container {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
 }
-
 
 
 #button-container a {
@@ -236,6 +237,8 @@ form {
 }
 
 footer {
+    /*position: absolute;*/
+
     color: var(--link-text-color);
     display: flex;
     flex-wrap: wrap;
@@ -253,6 +256,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: 15px;
 
         a {
             padding-left: 15px;
