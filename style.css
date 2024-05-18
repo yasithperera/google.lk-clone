@@ -62,7 +62,7 @@ header #top-container {
     line-height: 16px;
     margin-left: 10px;
     margin-right: 8px;
-    min-width: 96px;
+    min-width: 80px;
     padding: 9px 23px;
     text-align: center;
     vertical-align: middle;
@@ -73,7 +73,8 @@ header #top-container {
     border: none;
 
     &:hover {
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
 
     }
 
@@ -107,6 +108,11 @@ header #top-container {
     max-width: 584px;
 
     align-items: center;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
 
     input {
         /*general siblings mic and camera svgs*/
@@ -156,9 +162,8 @@ header #top-container {
     cursor: pointer;
     user-select: none;
 
-    &:hover{
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
 }
 
@@ -201,9 +206,10 @@ form {
         margin-bottom: 30px;
         /*width: 50%;*/
         border-radius: 30px;
+        font-size: 16px;
         /*border: lightgray solid 0.3px;*/
         border: none;
-
+        outline: none;
         display: flex;
         /*z-index: 3;*/
         position: relative;
