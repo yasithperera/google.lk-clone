@@ -247,7 +247,6 @@ footer {
     align-items: center;
     min-height: 46px;
     font-size: 15px;
-    /*padding: 15px;*/
     margin: 0;
 
     width: 100%;
@@ -281,4 +280,11 @@ footer {
     /*justify-content: space-between;*/
     height: 48px;
 
+}
+
+#footer-division{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
