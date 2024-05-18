@@ -1,15 +1,19 @@
 @media screen and (width <= 686px) {
     footer {
         justify-content: center;
-    }
-}
 
-@media screen and (width <= 456px){
-    footer{
-        div{
-            flex-wrap: wrap;
-            justify-content: center;
+        div {
+            &:last-child {
+                padding: 15px;
+            }
         }
-    }
 
-}
+        @media screen and (width <= 456px) {
+            footer {
+                div {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
+
+        }

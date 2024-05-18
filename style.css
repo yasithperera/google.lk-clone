@@ -3,6 +3,7 @@
     --my-font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
     --button-font-family: arial, sans-serif;
     --theme-color: yellow;
+    --link-text-color: #000000DE;
 }
 
 
@@ -39,6 +40,15 @@ header #top-container {
 #top-container a {
     /*remove underline*/
     text-decoration: none;
+    /*color: black;*/
+}
+
+#gmail-link, #images-link {
+    color: var(--link-text-color);
+}
+
+#sign-in-button {
+    color: white;
 }
 
 #top-container * {
@@ -219,7 +229,7 @@ form {
     display: inline-block;
     line-height: 28px;
 
-    height: 190px;
+    height: 152px;
     flex-grow: 1;
 
     a {
@@ -232,7 +242,7 @@ form {
 }
 
 footer {
-    color: black;
+    color: var(--link-text-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -251,6 +261,7 @@ footer {
             padding-left: 15px;
             padding-right: 15px;
             text-decoration: none;
+            color: var(--link-text-color);
         }
 
         a:hover {
