@@ -88,8 +88,11 @@ header #top-container {
 }
 
 #google-logo-container {
-    height: 92px;
+    height: 125px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 #search-bar-container {
@@ -145,7 +148,13 @@ header #top-container {
     justify-content: center;
     align-items: center;
 }
+#lucky-button{
+    a{
+        color: #3c4043;
+    }
 
+
+}
 #search-button, #lucky-button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -167,35 +176,14 @@ header #top-container {
     }
 }
 
-/*#search-text-area {*/
-/*    display: flex;*/
-/*    font-family: arial, sans-serif;*/
-/*    line-height: 22px;*/
-/*    margin-bottom: 8px;*/
-/*    overflow-x: hidden;*/
 
-/*    resize: none;*/
-/*    background-color: transparent;*/
-/*    border: none;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    color: rgba(0, 0, 0, .87);*/
-/*    word-wrap: break-word;*/
-/*    outline: none;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-
-/*    min-width: 219px;*/
-
-/*    !*-webkit-tap-highlight-color: transparent;*!*/
-/*}*/
 
 #button-container a {
     text-decoration: none;
 }
 
 form {
-    margin-top: 50px;
+    margin-top: 20px;
     /*display: flex;*/
     /*flex-direction: column;*/
     text-align: center;
@@ -256,7 +244,8 @@ footer {
     align-items: center;
     min-height: 46px;
     font-size: 15px;
-    padding: 15px;
+    /*padding: 15px;*/
+    margin: 0;
 
     width: 100%;
 
