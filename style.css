@@ -47,9 +47,6 @@ header #top-container {
     color: var(--link-text-color);
 }
 
-#sign-in-button {
-    color: white;
-}
 
 #top-container * {
     padding: 10px;
@@ -72,14 +69,12 @@ header #top-container {
     border-radius: 4px;
     color: white;
     background-color: #1A73E8;
-    /*box-shadow: none;*/
-    /*outline: none;*/
+
     border: none;
 
     &:hover {
-        border-width: 2px;
-        border-style: inset;
-        border-color: lightgray;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
     }
 
 
@@ -160,6 +155,11 @@ header #top-container {
     text-align: center;
     cursor: pointer;
     user-select: none;
+
+    &:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    }
 }
 
 /*#search-text-area {*/
