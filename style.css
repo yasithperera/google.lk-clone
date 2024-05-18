@@ -26,6 +26,11 @@ header #top-container {
     font-family: var(--my-font-family);
 
     user-select: none;
+
+    /*svg{*/
+    /*    width: 25px;*/
+    /*    height: 25px;*/
+    /*}*/
 }
 
 #images-link:hover {
@@ -282,9 +287,31 @@ footer {
 
 }
 
-#footer-division{
+#footer-division {
     position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+#app-div {
+    &:hover {
+        #shadow-div {
+            visibility: visible;
+        }
+    }
+}
+
+#shadow-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: fixed;
+    background-color: #f2f2f2;
+    top: 22px;
+    right: 136px;
+    z-index: -1;
+
+    /*hide the shadow*/
+    visibility: hidden;
 }
