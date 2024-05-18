@@ -31,7 +31,11 @@ Feel free to modify the code, add new features, and experiment with different te
 
 <img src="/img/ui.png">
 
+## Version: 
+1.0.0
+
 ## License:
+Copyright &copy; 2024 Yasith Ishara Perera. All rights reserved.
 
 This project is distributed under the MIT License (see LICENSE file for details).
 
