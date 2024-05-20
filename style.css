@@ -300,8 +300,8 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
-    /*width: 40px;*/
-    /*height: 40px;*/
+    width: 40px;
+    height: 40px;
     /*border-radius: 100%;*/
     display: flex;
     justify-content: center;
