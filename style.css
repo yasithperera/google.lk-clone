@@ -100,8 +100,8 @@ header #top-container {
     align-items: end;
 }
 
-#mic-span, #image-span{
-    &:hover{
+#mic-span, #image-span {
+    &:hover {
         cursor: pointer;
     }
 }
@@ -297,10 +297,20 @@ footer {
 }
 
 #app-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
     &:hover {
-        #shadow-div {
-            visibility: visible;
-        }
+        background-color: #f2f2f2;
+
+        /*#shadow-div {*/
+        /*    visibility: visible;*/
+        /*}*/
         cursor: pointer;
     }
 }
